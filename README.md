@@ -1,8 +1,8 @@
-Website Project for B.G MUSCLE HUT GYM
+Website Project for YOUR GYM NAME
 1. Project Overview
 Business Name
 
-B.G MUSCLE HUT GYM
+YOUR GYM NAME
 
 Industry
 
@@ -21,7 +21,7 @@ Increase local gym memberships
 Generate leads through WhatsApp & call inquiries
 Showcase gym facilities, trainers, transformation results, and equipment
 Build trust using reviews and social proof
-Make B.G MUSCLE HUT GYM appear as the #1 premium gym in Bodh Gaya
+Make YOUR GYM NAME appear as the #1 premium gym in Bodh Gaya
 Attract both beginners and serious fitness enthusiasts
 Improve Google visibility locally
 2. Business Understanding
@@ -83,7 +83,7 @@ Suggested Taglines
 “Build Your Best Body”
 “Train Hard. Stay Strong.”
 “Your Fitness Journey Starts Here”
-“Transform Yourself with B.G MUSCLE HUT”
+“Transform Yourself with YOUR GYM NAME”
 6. Website Structure (Sitemap)
 Main Pages
 1. Home Page
@@ -385,7 +385,7 @@ Member dashboard
 AI fitness assistant
 16. Competitor Advantage Strategy
 
-Website should position B.G MUSCLE HUT as:
+Website should position YOUR GYM NAME as:
 
 ✅ More professional
 ✅ More premium

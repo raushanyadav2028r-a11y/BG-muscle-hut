@@ -298,7 +298,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
 
       // Format custom WhatsApp text
-      const message = `Hello B.G Muscle Hut Gym Bodh Gaya! My name is ${name}. I am interested in booking a Free Trial session / joining the gym under the "${packageSelected}" plan. Please contact me back on my phone: ${phone}. Thank you!`;
+      const message = `Hello Your Gym Name Bodh Gaya! My name is ${name}. I am interested in booking a Free Trial session / joining the gym under the "${packageSelected}" plan. Please contact me back on my phone: ${phone}. Thank you!`;
       const encodedMessage = encodeURIComponent(message);
       
       // WhatsApp Gym Contact Number (e.g. +91 9110091100 placeholder or real number)
@@ -347,7 +347,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
 
       // WhatsApp text
-      const messageText = `*Inquiry from B.G Muscle Hut Gym Website*\n\n*Name:* ${name}\n*Email:* ${email || 'N/A'}\n*Phone:* ${phone}\n*Subject:* ${subject}\n*Preferred Plan:* ${plan}\n*Message:* ${msg}`;
+      const messageText = `*Inquiry from Your Gym Name Website*\n\n*Name:* ${name}\n*Email:* ${email || 'N/A'}\n*Phone:* ${phone}\n*Subject:* ${subject}\n*Preferred Plan:* ${plan}\n*Message:* ${msg}`;
       const encodedText = encodeURIComponent(messageText);
       const whatsappUrl = `https://wa.me/917033502802?text=${encodedText}`;
 
@@ -361,7 +361,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (waFloat) {
     waFloat.addEventListener('click', (e) => {
       e.preventDefault();
-      const text = encodeURIComponent('Hello! I visited your B.G Muscle Hut Gym website. I would like to inquire about gym membership details, timings, and personal trainer plans.');
+      const text = encodeURIComponent('Hello! I visited your Your Gym Name website. I would like to inquire about gym membership details, timings, and personal trainer plans.');
       window.open(`https://wa.me/917033502802?text=${text}`, '_blank');
     });
   }
