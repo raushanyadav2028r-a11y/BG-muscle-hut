@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo Gallery & Facilities | B.G MUSCLE HUT GYM Bodh Gaya</title>
+  <meta name="description" content="View our gym facilities in Bodh Gaya. Premium heavy weight lifting racks, professional cardio lines, functional areas, and client transformation before/after galleries.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar scrolled">
+    <div class="container">
+      <a href="index.html" class="nav-brand">
+        <span class="nav-brand-accent">B.G</span> MUSCLE HUT
+      </a>
+      <ul class="nav-menu">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="services.html" class="nav-link">Services</a></li>
+        <li><a href="membership.html" class="nav-link">Memberships</a></li>
+        <li><a href="trainers.html" class="nav-link">Trainers</a></li>
+        <li><a href="gallery.html" class="nav-link active">Gallery</a></li>
+        <li><a href="testimonials.html" class="nav-link">Success Stories</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="nav-burger" aria-label="Toggle menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Subpage Hero Header -->
+  <header class="subpage-hero" style="background-image: linear-gradient(180deg, rgba(8, 9, 12, 0.5) 0%, rgba(8, 9, 12, 1) 100%), url('https://images.unsplash.com/photo-1638536532686-d610adfc8e5c?q=80&w=1600');">
+    <div class="container">
+      <span class="hero-tagline">Visual Tour of Strength</span>
+      <h1 class="section-title" style="margin-bottom: 0;">PHOTO <span class="text-gradient">GALLERY</span></h1>
+      <p class="section-subtitle">Take a visual tour of Bodh Gaya's premium weightlifting yards, cardio equipment, and elite member results.</p>
+    </div>
+  </header>
+
+  <!-- Interactive Gallery Section -->
+  <section class="section-padding" id="gym-gallery">
+    <div class="container">
+      <!-- Dynamic Filter Buttons -->
+      <div class="tabs-container">
+        <button class="tab-btn active" data-tab="all">All Media</button>
+        <button class="tab-btn" data-tab="interior">Gym Facilities</button>
+        <button class="tab-btn" data-tab="training">Training Sessions</button>
+        <button class="tab-btn" data-tab="transform">Transformations</button>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="gallery-grid-page">
+        <!-- Item 1: Interior -->
+        <div class="gallery-item" data-category="interior">
+          <img src="https://images.unsplash.com/photo-1638536532686-d610adfc8e5c?q=80&w=600" alt="Free weight dumbbell rack B.G Muscle Hut Gym Bodh Gaya">
+          <div class="scroll-indicator">
+            <div class="mouse-icon"><div class="mouse-wheel"></div></div>
+            <span style="font-size: 0.8rem; font-weight: 600; text-transform: uppercase;">View Lightbox</span>
+          </div>
+          <div class="gallery-info">
+            <span class="gallery-tag">Interior & Equipment</span>
+            <h3 class="gallery-title">Premium Dumbbell Yard</h3>
+          </div>
+        </div>
+
+        <!-- Item 2: Training -->
+        <div class="gallery-item" data-category="training">
+          <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=600" alt="Cardio line training sessions at Bodh Gaya gym">
+          <div class="scroll-indicator">
+            <div class="mouse-icon"><div class="mouse-wheel"></div></div>
+            <span style="font-size: 0.8rem; font-weight: 600; text-transform: uppercase;">View Lightbox</span>
+          </div>
+          <div class="gallery-info">
+            <span class="gallery-tag">Training Sessions</span>
+            <h3 class="gallery-title">HIIT Metabolic Conditioning</h3>
+          </div>
+        </div>
+
+        <!-- Item 3: Transform -->
+        <div class="gallery-item" data-category="transform">
+          <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=600" alt="Bodybuilding client transformation bihar">
+          <div class="scroll-indicator">
+            <div class="mouse-icon"><div class="mouse-wheel"></div></div>
+            <span style="font-size: 0.8rem; font-weight: 600; text-transform: uppercase;">View Lightbox</span>
+          </div>
+          <div class="gallery-info">
+            <span class="gallery-tag">Transformations</span>
+            <h3 class="gallery-title">Rahul's 9kg Muscle Build</h3>
+          </div>
+        </div>
+
+        <!-- Item 4: Interior -->
+        <div class="gallery-item" data-category="interior">
+          <img src="https://images.unsplash.com/photo-1574680096145-d05b474e2155?q=80&w=600" alt="Powerlifting cages Bodh Gaya gym">
+          <div class="scroll-indicator">
+            <div class="mouse-icon"><div class="mouse-wheel"></div></div>
+            <span style="font-size: 0.8rem; font-weight: 600; text-transform: uppercase;">View Lightbox</span>
+          </div>
+          <div class="gallery-info">
+            <span class="gallery-tag">Interior & Equipment</span>
+            <h3 class="gallery-title">Elite Powerlifting Cages</h3>
+          </div>
+        </div>
+
+        <!-- Item 5: Training -->
+        <div class="gallery-item" data-category="training">
+          <img src="https://images.unsplash.com/photo-1518310383802-640c2de311b2?q=80&w=600" alt="Trainer spotting athlete dumbbell incline press">
+          <div class="scroll-indicator">
+            <div class="mouse-icon"><div class="mouse-wheel"></div></div>
+            <span style="font-size: 0.8rem; font-weight: 600; text-transform: uppercase;">View Lightbox</span>
+          </div>
+          <div class="gallery-info">
+            <span class="gallery-tag">Training Sessions</span>
+            <h3 class="gallery-title">1-on-1 Trainer Spotting</h3>
+          </div>
+        </div>
+
+        <!-- Item 6: Transform -->
+        <div class="gallery-item" data-category="transform">
+          <img src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?q=80&w=600" alt="Fat shredding transform photo Bodh Gaya bihar">
+          <div class="scroll-indicator">
+            <div class="mouse-icon"><div class="mouse-wheel"></div></div>
+            <span style="font-size: 0.8rem; font-weight: 600; text-transform: uppercase;">View Lightbox</span>
+          </div>
+          <div class="gallery-info">
+            <span class="gallery-tag">Transformations</span>
+            <h3 class="gallery-title">Amit's 18kg Fat Loss</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Premium Footer -->
+  <footer class="contact-footer">
+    <div class="container">
+      <div class="contact-info-grid">
+        <div class="contact-info-item">
+          <span class="contact-info-label"><i class="fas fa-phone-volume" style="color: var(--accent);"></i> Call Our Desk</span>
+          <a href="tel:+917033502802" class="contact-info-value">+91 7033502802</a>
+        </div>
+        <div class="contact-info-item">
+          <span class="contact-info-label"><i class="fas fa-envelope-open-text" style="color: var(--accent);"></i> Email Inquiry</span>
+          <a href="mailto:bgmusclehut@gmail.com" class="contact-info-value" style="font-size: 1.8rem; text-transform: lowercase;">bgmusclehut@gmail.com</a>
+        </div>
+        <div class="contact-info-item">
+          <span class="contact-info-label"><i class="fas fa-map-pin" style="color: var(--accent);"></i> Gym Branch</span>
+          <a href="https://maps.google.com" target="_blank" class="contact-info-value" style="font-size: 2rem;">BODH GAYA, BIHAR</a>
+        </div>
+      </div>
+
+      <div class="bottom-bar">
+        <div>
+          &copy; 2026 <strong>B.G MUSCLE HUT GYM</strong>. All Rights Reserved. Designed to replicate the high-end design visual language.
+        </div>
+        <div class="socials-row">
+          <a href="https://instagram.com" target="_blank" class="social-icon-btn" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://facebook.com" target="_blank" class="social-icon-btn" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://youtube.com" target="_blank" class="social-icon-btn" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="https://wa.me/917033502802" target="_blank" class="social-icon-btn" aria-label="WhatsApp" style="background: #25D366; border-color: #25D366;"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Widget -->
+  <a href="#" class="whatsapp-float" aria-label="Contact Gym on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>

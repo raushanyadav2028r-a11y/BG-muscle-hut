@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Success Stories & Testimonials | B.G MUSCLE HUT GYM Bodh Gaya</title>
+  <meta name="description" content="Read real reviews and inspiring physical transformations of B.G MUSCLE HUT GYM members in Bodh Gaya. Dropped fat, built muscle, and achieved peak strength levels.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    /* Special styling for Testimonials review summary cards */
+    .rating-summary-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 40px;
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 40px;
+      margin-bottom: 60px;
+      align-items: center;
+    }
+    .rating-big {
+      font-size: 5rem;
+      font-family: var(--font-heading);
+      color: var(--text-primary);
+      line-height: 1;
+      font-weight: 700;
+    }
+    .rating-stars {
+      color: #ffcc00;
+      font-size: 1.5rem;
+      margin-top: 8px;
+    }
+    .rating-breakdown {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .breakdown-row {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+    }
+    .breakdown-bar-bg {
+      flex: 1;
+      height: 8px;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 4px;
+      overflow: hidden;
+    }
+    .breakdown-bar-fg {
+      height: 100%;
+      background: var(--accent);
+      border-radius: 4px;
+    }
+    .story-card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 30px;
+      margin-top: 40px;
+    }
+    .story-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: all 0.3s ease;
+    }
+    .story-card:hover {
+      transform: translateY(-8px);
+      border-color: var(--accent);
+      box-shadow: 0 10px 20px rgba(255, 82, 47, 0.1);
+    }
+    .story-header {
+      padding: 24px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      border-bottom: 1px solid var(--border-color);
+    }
+    .story-avatar {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid var(--accent);
+    }
+    .story-user-details h3 {
+      font-family: var(--font-heading);
+      text-transform: uppercase;
+      font-size: 1.15rem;
+    }
+    .story-user-details span {
+      font-size: 0.85rem;
+      color: var(--accent);
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+    .story-body {
+      padding: 24px;
+      color: var(--text-secondary);
+      font-size: 0.95rem;
+      font-weight: 300;
+      line-height: 1.6;
+      flex: 1;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar scrolled">
+    <div class="container">
+      <a href="index.html" class="nav-brand">
+        <span class="nav-brand-accent">B.G</span> MUSCLE HUT
+      </a>
+      <ul class="nav-menu">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="services.html" class="nav-link">Services</a></li>
+        <li><a href="membership.html" class="nav-link">Memberships</a></li>
+        <li><a href="trainers.html" class="nav-link">Trainers</a></li>
+        <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+        <li><a href="testimonials.html" class="nav-link active">Success Stories</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="nav-burger" aria-label="Toggle menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Subpage Hero Header -->
+  <header class="subpage-hero" style="background-image: linear-gradient(180deg, rgba(8, 9, 12, 0.5) 0%, rgba(8, 9, 12, 1) 100%), url('https://images.unsplash.com/photo-1548690312-e3b507d8c110?q=80&w=1600');">
+    <div class="container">
+      <span class="hero-tagline">Real Results from Real Members</span>
+      <h1 class="section-title" style="margin-bottom: 0;">MEMBER <span class="text-gradient">REVIEWS</span></h1>
+      <p class="section-subtitle">Read inspiring physical body transformations and reviews from B.G MUSCLE HUT GYM members in Bodh Gaya.</p>
+    </div>
+  </header>
+
+  <!-- Reviews Summary Rating Section -->
+  <section class="section-padding" id="reviews-dashboard">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">LOCAL GOOGLE <span class="text-gradient">REVIEW INDEX</span></h2>
+        <p class="section-subtitle">We maintain a stellar local review standard based on our clean facilities, professional trainers, and certified equipment.</p>
+      </div>
+
+      <!-- Rating summary dashboard -->
+      <div class="rating-summary-card">
+        <div style="text-align: center; border-right: 1px solid var(--border-color); padding-right: 20px;">
+          <div class="rating-big">4.9</div>
+          <div class="rating-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: 10px; font-weight: 300;">Based on 320+ verified Google Reviews</p>
+        </div>
+
+        <div class="rating-breakdown">
+          <!-- 5 star -->
+          <div class="breakdown-row">
+            <span>5 Stars</span>
+            <div class="breakdown-bar-bg"><div class="breakdown-bar-fg" style="width: 92%;"></div></div>
+            <span>92%</span>
+          </div>
+          <!-- 4 star -->
+          <div class="breakdown-row">
+            <span>4 Stars</span>
+            <div class="breakdown-bar-bg"><div class="breakdown-bar-fg" style="width: 6%;"></div></div>
+            <span>6%</span>
+          </div>
+          <!-- 3 star -->
+          <div class="breakdown-row">
+            <span>3 Stars</span>
+            <div class="breakdown-bar-bg"><div class="breakdown-bar-fg" style="width: 2%;"></div></div>
+            <span>2%</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Real transformation stories list -->
+      <div class="section-header" style="margin-top: 80px; margin-bottom: 20px;">
+        <h2 class="section-title">INSPIRATIONAL <span class="text-gradient">STORIES</span></h2>
+        <p class="section-subtitle">Verified fitness results. These stories represent dedicated consistency, expert spotter assistance, and optimized nutrition advice.</p>
+      </div>
+
+      <div class="story-card-grid">
+        <!-- Story 1 -->
+        <div class="story-card">
+          <div class="story-header">
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200" alt="Saurabh Singh review Bodh Gaya gym" class="story-avatar">
+            <div class="story-user-details">
+              <h3>Saurabh Singh</h3>
+              <span>Muscle Building (+7kg)</span>
+            </div>
+          </div>
+          <div class="story-body">
+            "Before joining B.G Muscle Hut Gym, I was underweight and extremely underconfident about my lifting form. Coach Rao Sahab set up a highly specialized progressive overload program. The isolateral plate-loaded chest machines and heavy squat cages are top tier. In 3 months, I have built 7kg of clean muscle mass and improved my squat from 40kg to 100kg. Best student budget gym in Bodh Gaya!"
+          </div>
+        </div>
+
+        <!-- Story 2 -->
+        <div class="story-card">
+          <div class="story-header">
+            <img src="https://images.unsplash.com/photo-1548690312-e3b507d8c110?q=80&w=200" alt="Neha Sharma fat loss review" class="story-avatar">
+            <div class="story-user-details">
+              <h3>Neha Sharma</h3>
+              <span>Fat Loss (-12kg)</span>
+            </div>
+          </div>
+          <div class="story-body">
+            "Being a busy professional, I struggled with sudden weight gain and sluggish energy. Under Coach Saurabh's dynamic HIIT program and custom deficit diet, I dropped 12kg in 4 months. The gym environment is highly supportive and female friendly. Facilities are fully air conditioned and sanitized perfectly. Best choice in Bodh Gaya!"
+          </div>
+        </div>
+
+        <!-- Story 3 -->
+        <div class="story-card">
+          <div class="story-header">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200" alt="Vikram Yadav review bihar" class="story-avatar">
+            <div class="story-user-details">
+              <h3>Vikram Yadav</h3>
+              <span>Raw Strength & Core Boost</span>
+            </div>
+          </div>
+          <div class="story-body">
+            "If you want to train seriously, this is the absolute destination. Most gyms in Bodh Gaya lack heavy dumbbells, solid cages, and knowledgeable spotting. The biomechanical alignment of machines here is perfect, allowing me to lift heavy barbell compounds with zero joint pain. The trainers are always present on the floor. Premium environment!"
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Premium Footer -->
+  <footer class="contact-footer">
+    <div class="container">
+      <div class="contact-info-grid">
+        <div class="contact-info-item">
+          <span class="contact-info-label"><i class="fas fa-phone-volume" style="color: var(--accent);"></i> Call Our Desk</span>
+          <a href="tel:+917033502802" class="contact-info-value">+91 7033502802</a>
+        </div>
+        <div class="contact-info-item">
+          <span class="contact-info-label"><i class="fas fa-envelope-open-text" style="color: var(--accent);"></i> Email Inquiry</span>
+          <a href="mailto:bgmusclehut@gmail.com" class="contact-info-value" style="font-size: 1.8rem; text-transform: lowercase;">bgmusclehut@gmail.com</a>
+        </div>
+        <div class="contact-info-item">
+          <span class="contact-info-label"><i class="fas fa-map-pin" style="color: var(--accent);"></i> Gym Branch</span>
+          <a href="https://maps.google.com" target="_blank" class="contact-info-value" style="font-size: 2rem;">BODH GAYA, BIHAR</a>
+        </div>
+      </div>
+
+      <div class="bottom-bar">
+        <div>
+          &copy; 2026 <strong>B.G MUSCLE HUT GYM</strong>. All Rights Reserved. Designed to replicate the high-end design visual language.
+        </div>
+        <div class="socials-row">
+          <a href="https://instagram.com" target="_blank" class="social-icon-btn" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://facebook.com" target="_blank" class="social-icon-btn" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://youtube.com" target="_blank" class="social-icon-btn" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="https://wa.me/917033502802" target="_blank" class="social-icon-btn" aria-label="WhatsApp" style="background: #25D366; border-color: #25D366;"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Widget -->
+  <a href="#" class="whatsapp-float" aria-label="Contact Gym on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
