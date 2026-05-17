@@ -338,6 +338,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const email = document.getElementById('contact-email').value;
       const phone = document.getElementById('contact-phone').value;
       const subject = document.getElementById('contact-subject').value;
+      const plan = document.getElementById('contact-plan').value;
       const msg = document.getElementById('contact-message').value;
 
       if (!name || !phone || !msg) {
@@ -346,7 +347,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
 
       // WhatsApp text
-      const messageText = `*Inquiry from B.G Muscle Hut Gym Website*\n\n*Name:* ${name}\n*Email:* ${email || 'N/A'}\n*Phone:* ${phone}\n*Subject:* ${subject}\n*Message:* ${msg}`;
+      const messageText = `*Inquiry from B.G Muscle Hut Gym Website*\n\n*Name:* ${name}\n*Email:* ${email || 'N/A'}\n*Phone:* ${phone}\n*Subject:* ${subject}\n*Preferred Plan:* ${plan}\n*Message:* ${msg}`;
       const encodedText = encodeURIComponent(messageText);
       const whatsappUrl = `https://wa.me/917033502802?text=${encodedText}`;
 

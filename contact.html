@@ -6,6 +6,7 @@
   <title>Contact & Timings | B.G MUSCLE HUT GYM Bodh Gaya</title>
   <meta name="description" content="Contact B.G MUSCLE HUT GYM in Bodh Gaya. Get opening timings, phone call support, WhatsApp links, and visit our branch near central transit pathways.">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
     /* Special CSS helper styles for contact grid and timings */
@@ -204,6 +205,17 @@
             </div>
 
             <div class="input-field">
+              <label for="contact-plan">Preferred Membership Plan *</label>
+              <select id="contact-plan" required>
+                <option value="Not Sure Yet / Guide Me">Not Sure Yet / Guide Me</option>
+                <option value="Monthly Pass (₹500)">Monthly Pass (₹500)</option>
+                <option value="3-Month Pass (₹1,300)">3-Month Pass (₹1,300)</option>
+                <option value="6-Month Pass (₹3,000)">6-Month Pass (₹3,000)</option>
+                <option value="Annual Pass (₹5,500)">Annual Pass (₹5,500)</option>
+              </select>
+            </div>
+
+            <div class="input-field">
               <label for="contact-message"><i class="fas fa-bullseye" style="color: var(--accent); margin-right: 6px;"></i> Share Your Fitness Dream & Target Body Goal *</label>
               <textarea id="contact-message" class="dream-goal-textarea" placeholder="Tell us your target! (e.g. 'I want to lose 10kg fat', 'I want to build lean muscle', or 'I want to improve my raw strength'. Mention your preferred workout timings. Let's make it happen!)" rows="5" required></textarea>
             </div>
@@ -271,6 +283,15 @@
   <a href="#" class="whatsapp-float" aria-label="Contact Gym on WhatsApp">
     <i class="fab fa-whatsapp"></i>
   </a>
+
+  <!-- Mobile Sticky Bottom CTA -->
+  <div class="mobile-sticky-cta">
+    <div class="sticky-cta-text">
+      <strong>We Reply Instantly!</strong>
+      Message us on WhatsApp now.
+    </div>
+    <a href="https://wa.me/917033502802" target="_blank" class="btn btn-primary"><i class="fab fa-whatsapp"></i> WhatsApp Us</a>
+  </div>
 
   <script src="script.js?v=1.1"></script>
 </body>
