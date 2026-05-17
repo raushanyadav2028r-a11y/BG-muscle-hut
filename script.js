@@ -302,7 +302,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const encodedMessage = encodeURIComponent(message);
       
       // WhatsApp Gym Contact Number (e.g. +91 9110091100 placeholder or real number)
-      const whatsappUrl = `https://wa.me/917033502802?text=${encodedMessage}`;
+      const whatsappUrl = `https://wa.me/910123456789?text=${encodedMessage}`;
       
       // Open WhatsApp in a new tab
       window.open(whatsappUrl, '_blank');
@@ -349,7 +349,7 @@ document.addEventListener('DOMContentLoaded', () => {
       // WhatsApp text
       const messageText = `*Inquiry from Your Gym Name Website*\n\n*Name:* ${name}\n*Email:* ${email || 'N/A'}\n*Phone:* ${phone}\n*Subject:* ${subject}\n*Preferred Plan:* ${plan}\n*Message:* ${msg}`;
       const encodedText = encodeURIComponent(messageText);
-      const whatsappUrl = `https://wa.me/917033502802?text=${encodedText}`;
+      const whatsappUrl = `https://wa.me/910123456789?text=${encodedText}`;
 
       window.open(whatsappUrl, '_blank');
       contactForm.reset();
@@ -362,7 +362,7 @@ document.addEventListener('DOMContentLoaded', () => {
     waFloat.addEventListener('click', (e) => {
       e.preventDefault();
       const text = encodeURIComponent('Hello! I visited your Your Gym Name website. I would like to inquire about gym membership details, timings, and personal trainer plans.');
-      window.open(`https://wa.me/917033502802?text=${text}`, '_blank');
+      window.open(`https://wa.me/910123456789?text=${text}`, '_blank');
     });
   }
 
